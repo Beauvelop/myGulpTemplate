@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-height: 100%;
+  min-width: 100%;
+  max-height: 100vh;
+  position: absolute;
+  display: flex; }
+
+/*and (max-device-width: 568px)*/
+@media only screen and (max-device-width: 425px) {
+  .phone-title {
+    width: 100vw;
+    height: 10vh;
+    /*border: 5px solid purple;*/ }
+  .phone-div {
+    padding: auto;
+    color: wheat;
+    font-size: .5em;
+    margin: auto; }
+  .phone-content {
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid yellow;
+    display: none; }
+}
